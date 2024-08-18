@@ -25,7 +25,7 @@ NOTE: If you are having issues with permissions. And you get error:
 
 -- NOTE: This has been updated from the video to fix issues with encoding
 
-SELECT * FROM skills_job_dim LIMIT 10
+SELECT * FROM job_postings_fact LIMIT 10
 
 COPY company_dim
 FROM '/Users/amansrivastava15/Documents/SQL_Project/csv_files/company_dim.csv
